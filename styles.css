@@ -3,15 +3,35 @@
 }
 .baapl{
   width: 50%;
+  font-size: 1.2rem;
+}
+.bada{
+  font-size: 1.2rem;
 }
 body{
-  text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 20px;
   margin:0;
+  background-color: #FEFBE9;
+  overflow-x: hidden;
+}
+.work{
+  margin-bottom: 20px;
 }
 .schema{
-  width: 75%;
+  width: 50%;
+}
+.logo {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.logo:hover{
+  transform: scale(1.2);
+}
+.row{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .center {
     height: 200px;
@@ -52,4 +72,44 @@ a{
   margin-top: 30px;
   color: black;
 }
-  
+.drop{
+  margin: 10px;
+}
+#chart-container{
+  margin-top: 40px;
+}
+.upar{
+  margin-top: 10px;
+}  
+#crime-select{
+  width: 50%;
+}
+.head{
+  text-align: center;
+  margin: 40px;
+}
+.head2{
+  text-align: center;
+  margin-top: 20px;
+}
+.diag{
+  margin-top: 20px;
+}
+div {
+  margin: 0 auto;
+}
+.back{
+  text-align: center;
+}
+.center2{
+  text-align: center;
+}
+@media (max-width:1028px)
+{
+  .schema{
+    width: 80%;
+  }
+  .logo{
+    width: 50%;
+  }
+}
