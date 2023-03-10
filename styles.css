@@ -26,6 +26,11 @@ body{
 margin-left: auto;
 margin-right: auto;
 }
+.logo3 {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
 .logo:hover{
   transform: scale(1.2);
 }
@@ -107,6 +112,9 @@ div {
 @media (max-width:1028px)
 {
   .schema{
+    width: 80%;
+  }
+  .logo3{
     width: 80%;
   }
   .logo{

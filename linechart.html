@@ -43,7 +43,7 @@
 <script>
 
 // Load the data from a CSV file
-d3.csv("https://raw.githubusercontent.com/A-Tanz/18CSE301J_RA2011003010499/main/data.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/IlluminatiP1/dataf/main/data.csv").then(function(data) {
 
   // Define the jurisdiction dropdown
   var jurisdictionDropdown = d3.select("#jurisdiction")
@@ -66,7 +66,7 @@ d3.csv("https://raw.githubusercontent.com/A-Tanz/18CSE301J_RA2011003010499/main/
   var chartContainer = d3.select("#chart-container");
 
   // Define the initial selected jurisdiction and crime
-  var selectedJurisdiction = "";
+  var selectedJurisdiction = "California";
   var selectedCrime = "murder_rate";
 
   // Update the chart with the initial data
